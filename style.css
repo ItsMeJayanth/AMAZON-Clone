@@ -121,9 +121,13 @@ span{
     font-size: 0.7rem;
     font-weight: 400;
 }
+.nav-signin{
+    margin-left: 15px;
+}
 .nav-second{
     font-size: 0.85rem;
     font-weight: 700;
+    margin-left: 50px;
 }
 .nav-ret{
     font-size: 0.85rem;
