@@ -12,37 +12,39 @@
     /**justify-content: space-evenly;**/
 }
 .nav-logo{
-    height: 50px;
+    height: 60px;
     width: 100px;
 }
 .logo{
     background-image: url("amazon_logo.png");
     background-size: cover;
-    height: 49px;
+    height: 65px;
     width: 99%;
     margin-bottom:10px;
     padding: 1px 8px 0px 6px;
+    margin-left: 10px;
 }
-
 .border{
-    border: 1.5px solid transparent;
+    border: 2px solid transparent;
 }
 .border:hover{
     border: 1.5px solid white;
 }
 .nav-address{
     margin-right:20px ;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 .address-first{
     color: #cccccc;
     font-size: 0.8rem;
     margin-left: 15px;
+    font-weight: 400;
 
 }
 .address-sec{
     font-size: 1rem;
     margin-left: 3px;
+    font-weight: 700;
 
 }
 .address-icon{
@@ -50,17 +52,20 @@
     align-items: center;
 
 }
+.address-icon i{
+    font-size: 10-px;
+}
 .nav-search{
     display: flex;
-    justify-content: space-evenly;
     background-color: darkkhaki;
-    width: 610px;
+    width: 890px;
     height: 40px;
     border-radius: 4px;
 }
 /**.nav-search:hover{
-    border: 2px solid orange;
+    border: 1px solid orange;
 }**/
+
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -68,7 +73,6 @@
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     border: none;
-   
 }
 .search-input{
     width: 100%;
@@ -76,7 +80,7 @@
     border: none;
 }
 .search-icon{
-    width: 45px ;
+    width: 50px ;
     display: flex;
     justify-content: center;
     align-items:  center;
@@ -91,7 +95,7 @@
     width: 21.6px;
     margin-top: 13px;
     padding-bottom: 5px;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-right: 1px;
 }
 .nav-flag img{
@@ -121,13 +125,16 @@ span{
     font-size: 0.7rem;
     font-weight: 400;
 }
-.nav-signin{
-    margin-left: 15px;
+.nav-signin p{
+    margin-left: 22px;
 }
 .nav-second{
     font-size: 0.85rem;
     font-weight: 700;
     margin-left: 50px;
+}
+.nav-return p{
+    margin-left: 22px;
 }
 .nav-ret{
     font-size: 0.85rem;
@@ -136,6 +143,7 @@ span{
 /**box6**/
 .nav-cart i{
     font-size: 30px;
+    margin-left: 22px;
 }
 .nav-cart{
     font-size: 0.85rem;
