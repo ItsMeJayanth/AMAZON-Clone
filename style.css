@@ -165,3 +165,18 @@ span{
     width: 90%;
     font-size: 0.85rem;
 }
+
+/**Hero SEction**/
+.hero-section{
+    background-image: url("/images/hero\ section.jpg"); 
+    height: 600px;   
+    background-size: cover;
+}
+.hero-mesge{
+    background-color:white;
+    color: black;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
