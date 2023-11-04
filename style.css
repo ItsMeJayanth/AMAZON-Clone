@@ -169,8 +169,11 @@ span{
 /**Hero SEction**/
 .hero-section{
     background-image: url("/images/hero\ section.jpg"); 
-    height: 600px;   
+    height: 350px;   
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .hero-mesge{
     background-color:white;
@@ -179,4 +182,9 @@ span{
     display:flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-mesge a{
+     color: #007185;
 }
