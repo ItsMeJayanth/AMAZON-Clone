@@ -194,3 +194,14 @@ span{
 .hero-mesge a:hover{
     color: rgb(219, 90, 90);
 }
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+}
