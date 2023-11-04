@@ -160,6 +160,7 @@ span{
 .panel-ops p{
     display: inline;
     margin-left: 15px;
+    font-family: arial,sans-serif;
 }
 .panel-ops{
     width: 90%;
@@ -168,8 +169,8 @@ span{
 
 /**Hero SEction**/
 .hero-section{
-    background-image: url("/images/hero\ section.jpg"); 
-    height: 350px;   
+    background-image: url("/images/hero\ section\ 3.jpg"); 
+    height: 300px;   
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -182,9 +183,14 @@ span{
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     margin-bottom: 25px;
+    font-size: 14px;
+     font-family: Arial,sans-serif;
 }
 .hero-mesge a{
-     color: #007185;
+     color: #007185;     
+}
+.hero-mesge a:hover{
+    color: rgb(219, 90, 90);
 }
