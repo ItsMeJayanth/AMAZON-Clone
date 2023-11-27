@@ -341,9 +341,31 @@ span{
 .foot-panel{
     background-color: #37475a;
     color: white;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+}
+
+.foot-panel2{
+     background-color: #222f3d;
+     color: white;
+     height: 300px;
+     display: flex;
+     justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul p{
+    font-weight: 700;
+}
+
+ul a{
+   display: block;
+   font: size 0.85rem;
+   margin-top: 10px;
+   color: #dddddd;
 }
 
